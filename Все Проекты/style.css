@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img3.akspic.ru/attachments/crops/0/8/4/5/6/165480/165480-zayadlyj-oblako-atmosfera-sumrak-poslesvechenie-3840x2160.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body > h1 {
+
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.allimg {
+    gap: 100px;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+a { 
+    
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    color: yellow;
+    font-family: "Tac One", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.allimg > .img1 > img {
+    border: solid;
+    border-color: white;
+}
+
+.allimg > .img2 > img {
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.allimg > .img3 > img {
+    border: solid;
+    border-color: white;
+}
+
+.allimg > .img4 > img {
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+img {
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+    width: 100%;
+}
+
+
+
+.img6 > img {
+    border-color: black;
+}
+
